@@ -1,0 +1,62 @@
+// import { useState } from "react";
+// import "./App.css";
+// import { list, list2 } from "./assets/cards-list";
+// import Cards from "./components/Cards";
+// import Filter from "./components/Filter";
+// import Header from "./components/Header";
+
+
+// function App() {
+  
+//   const [selectedFilter, setSelectedFilter] = useState(0);
+//   return (
+//     <div className="App">
+//       <Header />
+//       <Filter
+//         selectedFilter={selectedFilter}
+//         setSelectedFilter={setSelectedFilter}
+//       />
+//       {selectedFilter == 0 ? <Cards list={list} /> : <Cards list={list2} />}
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+
+// import React, { useState } from "react";
+// import "./App.css";
+// import { list, list2 } from "./assets/cards-list";
+// import Cards from "./components/Cards";
+// import Filter from "./components/Filter";
+// import Header from "./components/Header";
+// import Admin from "./components/Admin"; // Import the Admin component
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+// function App() {
+//   const [selectedFilter, setSelectedFilter] = useState(0);
+
+//   return (
+//     <div className="App">
+//       <Router>
+//         <Switch>
+//           <Route path="/admin">
+//             <Admin />
+//           </Route>
+//           <Route path="/">
+//           <Header />
+//             <Filter
+//               selectedFilter={selectedFilter}
+//               setSelectedFilter={setSelectedFilter}
+//             />
+//             {selectedFilter === 0 ? <Cards list={list} /> : <Cards list={list2} />}
+//           </Route>
+//         </Switch>
+//       </Router>
+//     </div>
+//   );
+// }
+
+// export default App;
+
